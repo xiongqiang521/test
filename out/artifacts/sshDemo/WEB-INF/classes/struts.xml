@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!--常量配置-->
+    <constant name="struts.devMode" value="true"></constant>
+
+    <constant name="struts.objectFactory.spring.autoWire" value="name"></constant>
+
+
+
+    <package name="user" namespace="/user" extends="struts-default">
+        <action name="show_*" class="show" method="{1}">
+            <result name="success" type="redirect">/showAll.jsp</result>
+        </action>
+    </package>
+</struts>
