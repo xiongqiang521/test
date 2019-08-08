@@ -23,7 +23,7 @@ ${msg}
 <hr>
 <div>
 <s:iterator var="#session.userList" value="user">
-    <s:property value="#user.username" />----<s:property value="#user.password"/>
+    <s:property value="username" />----<s:property value="user.password"/>
 </s:iterator>
 </div>
 </body>
