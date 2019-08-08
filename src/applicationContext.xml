@@ -55,7 +55,7 @@
 
 <!--            环绕通知-->
 
-            <aop:around method="printLog" pointcut-ref="pointCut1"></aop:around>
+            <aop:around method="around" pointcut-ref="pointCut1"></aop:around>
         </aop:aspect>
     </aop:config>
 
