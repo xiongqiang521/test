@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507cc675-e0a8-4743-bbc3-46f14b101fee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/sshDemo/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/sshDemo/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/sshDemo/showAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/sshDemo/showAll.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sshDemo/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sshDemo/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/showAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/showAll.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="507cc675-e0a8-4743-bbc3-46f14b101fee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/showAll.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+            <state relative-caret-position="183">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -690,7 +684,7 @@
       <workItem from="1565054531334" duration="6297000" />
       <workItem from="1565074757245" duration="15292000" />
       <workItem from="1565136873483" duration="20841000" />
-      <workItem from="1565228888162" duration="2224000" />
+      <workItem from="1565228888162" duration="2536000" />
     </task>
     <task id="LOCAL-00001" summary="ssh整合项目初始提交">
       <created>1565171390115</created>
@@ -734,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565231768831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ssh整合项目初始提交">
+      <created>1565232226245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565232226245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -770,11 +771,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110516000" />
+    <option name="totallyTimeSpent" value="110828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="174" y="71" width="223" height="707" id="Project" order="0" sideWeight="0.49646392" visible="true" weight="0.16689008" />
       <window_info id="Image Layers" order="1" />
@@ -795,7 +795,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" sideWeight="0.49932975" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028158" side_tool="true" weight="0.42351276" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5028158" side_tool="true" visible="true" weight="0.42351276" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="Thumbnails" order="12" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32956153" />
@@ -1234,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/showAll.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+        <state relative-caret-position="183">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
