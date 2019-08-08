@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507cc675-e0a8-4743-bbc3-46f14b101fee" name="Default Changelist" comment="" />
+    <list default="true" id="507cc675-e0a8-4743-bbc3-46f14b101fee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +252,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
@@ -684,7 +686,7 @@
       <workItem from="1565054531334" duration="6297000" />
       <workItem from="1565074757245" duration="15292000" />
       <workItem from="1565136873483" duration="20841000" />
-      <workItem from="1565228888162" duration="2536000" />
+      <workItem from="1565228888162" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="ssh整合项目初始提交">
       <created>1565171390115</created>
@@ -735,7 +737,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565232226245</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ssh整合项目初始提交">
+      <created>1565232520153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565232520153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ssh整合项目初始提交">
+      <created>1565232664947</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565232664947</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -771,7 +787,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110828000" />
+    <option name="totallyTimeSpent" value="111083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
