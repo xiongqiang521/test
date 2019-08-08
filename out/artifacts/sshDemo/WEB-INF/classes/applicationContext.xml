@@ -37,6 +37,24 @@
         <property name="mappingDirectoryLocations" value="classpath:com/qs/bean"></property>
     </bean>
 
+
+
+
+<!--    切面AOP-->
+    <aop:config>
+
+        <aop:aspect id="service" ref="logger">
+<!--            切面-->
+            <aop:before method="printLog" pointcut="execution(* com.qs.service.impl.ServiceImpl.*(..)) "></aop:before>
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="logger" class="com.qs.logger.Logger"></bean>
+
+
+
+
+
     <bean name="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory"></property>
     </bean>

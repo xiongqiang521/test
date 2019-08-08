@@ -22,8 +22,8 @@ ${msg}
 <s:property value="#session.msg" ></s:property>
 <hr>
 <div>
-<s:iterator var="#session.userList" value="user">
-    <s:property value="#user.username" />----<s:property value="#user.password"/>
+<s:iterator value="#session.userList" var="user">
+    <s:property value="username" />----<s:property value="#user.password"/>${user.sex}<br/>
 </s:iterator>
 </div>
 </body>
