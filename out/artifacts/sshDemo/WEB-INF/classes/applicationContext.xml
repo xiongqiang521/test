@@ -43,9 +43,19 @@
 <!--    切面AOP-->
     <aop:config>
 
+        <aop:pointcut id="pointCut1" expression="execution(* com.qs.service.impl.ServiceImpl.*(..))"/>
+
         <aop:aspect id="service" ref="logger">
 <!--            切面-->
-            <aop:before method="printLog" pointcut="execution(* com.qs.service.impl.ServiceImpl.*(..)) "></aop:before>
+<!--            前置通知-->
+            <aop:before method="printLog" pointcut-ref="pointCut1"></aop:before>
+            <aop:after method="printLog" pointcut-ref="pointCut1"></aop:after>
+            <aop:after-returning method="printLog" pointcut-ref="pointCut1"></aop:after-returning>
+            <aop:after-throwing method="printLog" pointcut-ref="pointCut1"></aop:after-throwing>
+
+<!--            环绕通知-->
+
+            <aop:around method="printLog" pointcut-ref="pointCut1"></aop:around>
         </aop:aspect>
     </aop:config>
 
