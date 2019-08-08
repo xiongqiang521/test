@@ -184,7 +184,7 @@
   </component>
   <component name="Git.Rebase.Settings">
     <option name="SHOW_TAGS" value="true" />
-    <option name="ONTO" value="refs/heads/master" />
+    <option name="ONTO" value="refs/remotes/origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="W:\Git\bin\git.exe" />
